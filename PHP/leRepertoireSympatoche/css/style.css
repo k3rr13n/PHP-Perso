@@ -1,0 +1,14 @@
+/* .tableau thead tbody tr td {
+    border: 1px solid #ddd;
+    padding:15px;
+} */
+
+/* body {
+    background-color: brown;
+} */
+
+.tableau tr td{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    padding:15px;
+}
