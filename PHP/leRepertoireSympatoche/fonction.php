@@ -7,6 +7,9 @@ $meyeur_data = json_decode($data, true);
 $request = $_GET['brand'] ?? null;
 $product = $_GET['title'] ?? null;
 
+$laDonnee = array();
+$stock = "";
+// echo $product;
 // print_r($meyeur_data);
 
 function choose_value(string $parameter, array $dict): string

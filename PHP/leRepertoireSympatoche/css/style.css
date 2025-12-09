@@ -3,12 +3,50 @@
     padding:15px;
 } */
 
-/* body {
-    background-color: brown;
-} */
+body {
+    font-family: Helvetica, sans-serif;
+}
 
 .tableau tr td{
     border-collapse: collapse;
     border: 1px solid #ddd;
     padding:15px;
 }
+
+.navigation ul li{
+    list-style-type: none;
+}
+
+.list_elem{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #000000;
+    background-color: rgb(255, 219, 102);
+    border-radius: 20px;
+}
+
+.list_elem li{
+    margin: 0px 30px 0px 30px;
+    color: aliceblue;
+}
+
+.titre{
+    background-color: rgb(255, 219, 102);
+    padding: 5px 50px 5px 50px;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.remplissage_panier{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 50px 0px 60px 0px;
+    justify-content: center;
+}
+
+.remplissage_panier div{
+    margin: 0px 20px 0px 20px;
+}
+
